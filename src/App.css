@@ -9,10 +9,15 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: mover infinite 2s linear;
   }
 }
 
+@keyframes mover {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
