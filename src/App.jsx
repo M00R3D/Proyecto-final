@@ -3,6 +3,7 @@ import logoBache from './logoBache.png';
 import './App.css';
 import Componente from './Componente.jsx';
 import SplashScreen from './SplashScreen.jsx';
+import LoginForm from './LoginForm';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -24,22 +25,7 @@ function App() {
         <SplashScreen />
       ) : (
         <header className="App-header">
-          <img src={logoBache} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-            adfjajklsfhlas
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Componente />
-          <Componente />
-          <Componente />
+          <LoginForm />
         </header>
       )}
     </div>
