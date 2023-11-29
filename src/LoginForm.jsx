@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './LoginForm.css';
+import logoBache from './logoBache.png';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
@@ -22,6 +23,8 @@ const LoginForm = () => {
   };
 
   return (
+    <div className="login-container">
+      <img src={logoBache} alt="logoBache"className="logo"  />
     <form className="login-form" onSubmit={handleSubmit} >
       <label>
         Usuario:
@@ -35,6 +38,12 @@ const LoginForm = () => {
       <br />
       <button type="submit">Iniciar Sesión</button>
     </form>
+    <div className="bottom-links">
+        <a href="/login">Iniciar Sesión</a>
+        <a href="/terms">Términos y Condiciones</a>
+      </div>
+    </div>
+    
   );
 };
 

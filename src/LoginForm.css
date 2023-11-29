@@ -22,7 +22,9 @@
     margin-bottom: 15px;
     box-sizing: border-box;
   }
-  
+  .login-form input::selection {
+    color: rgb(173, 5, 188); /* Cambia el color según tus preferencias */
+  }
   .login-form button {
     background-color: rgb(57, 151, 43); /* Verde Aqua */
     color: #fff;
@@ -35,4 +37,38 @@
   .login-form button:hover {
     background-color: #4eb576; /* Cambia el color al pasar el mouse */
   }
+  .login-container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+  }
   
+  .logo {
+    position: absolute;
+    top: 40;
+    left:20px;
+    width: 100px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+    height: 100px; /* Ajusta el tamaño de acuerdo a tus necesidades */
+  }
+  
+  .bottom-links {
+    font-size: x-small;
+    margin-top: 10px;
+    text-align: center;
+    color: #eaeaea;
+    margin-bottom: 15px;
+  }
+  
+  .bottom-links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000; /* Cambia el color según tus preferencias */
+  }
+  
+  .bottom-links a:hover {
+    text-decoration: underline;
+    color: rgb(173, 5, 188); /* Cambia el color según tus preferencias */
+
+  }
