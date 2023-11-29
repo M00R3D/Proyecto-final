@@ -1,0 +1,38 @@
+/* styles.css */
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    background-color:  rgb(38, 219, 156);
+    border: 2px solid rgb(33, 128, 94);
+    border-radius: 45px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .login-form button {
+    background-color: rgb(57, 151, 43); /* Verde Aqua */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #4eb576; /* Cambia el color al pasar el mouse */
+  }
+  

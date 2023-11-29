@@ -13,7 +13,7 @@ function App() {
     const fakeLoading = () => {
       setTimeout(() => {
         setLoading(false);
-      }, 10000);
+      }, 3000);
     };
 
     fakeLoading();
