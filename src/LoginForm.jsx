@@ -27,13 +27,11 @@ const LoginForm = () => {
       <img src={logoBache} alt="logoBache"className="logo"  />
     <form className="login-form" onSubmit={handleSubmit} >
       <label>
-        Usuario:
-        <input type="text" value={username} onChange={handleUsernameChange} />
+        <input type="text" value={username} onChange={handleUsernameChange} placeholder="Usuario"/>
       </label>
       <br />
       <label>
-        Contraseña:
-        <input type="password" value={password} onChange={handlePasswordChange} />
+        <input type="password" value={password} onChange={handlePasswordChange} placeholder="Contraseña"/>
       </label>
       <br />
       <button type="submit">Iniciar Sesión</button>

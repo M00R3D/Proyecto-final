@@ -4,6 +4,7 @@ import './App.css';
 import Componente from './Componente.jsx';
 import SplashScreen from './SplashScreen.jsx';
 import LoginForm from './LoginForm';
+import RegistrationForm from './RegistrationForm';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,7 +26,7 @@ function App() {
         <SplashScreen />
       ) : (
         <header className="App-header">
-          <LoginForm />
+          <RegistrationForm />
         </header>
       )}
     </div>

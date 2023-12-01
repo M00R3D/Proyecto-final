@@ -1,4 +1,11 @@
 /* styles.css */
+.regist-container{
+  width: 600px;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 5px;
+}
 
 .login-form {
     background-color: white;
@@ -19,7 +26,7 @@
     background-color:  rgb(38, 219, 156);
     border: 2px solid rgb(33, 128, 94);
     border-radius: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     box-sizing: border-box;
   }
   .login-form input::selection {
